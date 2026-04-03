@@ -128,3 +128,41 @@
     @apply font-sans;
   }
 }
+
+/* Уменьшаем кнопки навигации (вверх/вниз/сегодня) */
+.fc-toolbar-chunk button,
+.fc-button-group button {
+  padding: 0.2rem 0.4rem !important;
+  font-size: 0.875rem !important;
+  height: auto !important;
+
+
+}
+
+.fc-toolbar-title {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  text-align: center !important;
+  padding: 0.5rem 0 !important;
+  margin: 0 !important;
+}
+
+/* Уменьшаем заголовки (Пн, Вт, Ср...)
+.fc-col-header-cell-cushion {
+  font-size: 0.875rem !important;
+  padding: 8px 4px !important;
+}
+
+/* Уменьшаем ячейки времени (9:00, 10:00...) */
+/* .fc-timegrid-slot-label-cushion {
+  font-size: 0.75rem !important;
+} */
+
+/* Уменьшаем события внутри календаря */
+/* .fc-event {
+  font-size: 0.75rem !important;
+  padding: 2px 4px !important;
+} */ 
